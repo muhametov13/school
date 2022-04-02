@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.block {
+  margin: 20px 0;
+  border: 2px dotted #818181;
+  padding: 20px;
+}
+
+.widthTop {
+  width: 400px;
+}
+
+.widthBottom {
+  width: 500px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+b {
+  color: red;
+}
+
+i {
+  color: blue;
+  font-style: italic;
+}
+
+.h1colorBlue {
+  font-size: 20px;
+  color: blue;
+}
+
+.h1colorRed {
+  color: red;
+}
+
+.h2colorGreen {
+  color: green;
+}
+
+.h2colorBlue {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+
+.iBold {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+ol {
+  color: red;
+}
+
+ul {
+  font-style: italic;
+  color: #924763;
+  width: 500px;
+}
+
+p {
+  text-indent: 30px;
+}

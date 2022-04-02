@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.block {
+  margin: 20px 0;
+  border: 2px dotted #818181;
+  padding: 20px;
+}

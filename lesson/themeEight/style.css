@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.block {
+  margin: 20px 0;
+  border: 2px dotted #818181;
+  padding: 20px;
+}
+
+a {
+  color: black;
+}
+
+#test:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#test:link,
+#test:visited {
+  color: red;
+}
+
+.www:link,
+:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+.www:hover {
+  text-decoration: none;
+}
+
+#test.www {
+  color: fuchsia;
+  text-decoration: none;
+}
+
+#test.www:hover {
+  color: aquamarine;
+}
+
+.eee .www {
+  color: darkorange;
+}
+
+#d1 {
+  text-decoration: underline;
+}
+
+#d2 {
+  text-decoration: line-through;
+}
+
+#d3 {
+  text-decoration: overline;
+}
+
+#table6 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+#table7 {
+  width: 500px;
+  height: 200px;
+  border: 1px dotted blue;
+}
+
+#table8 {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed green;
+}
+
+#table9 {
+  width: 500px;
+  height: 200px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid red;
+  border-left: 1px solid black;
+  border-right: 1px solid green;
+  border-radius: 20px;
+}
+
+#table10 {
+  width: 300px;
+  height: 300px;
+  border: 1px dashed green;
+  border-radius: 10px 30px;
+}
+
+#table11 {
+  width: 300px;
+  height: 300px;
+  border: 1px dotted green;
+  border-radius: 10px 30px 50px 70px;
+}
+
+#table12 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+#link1 a:link,
+#link1 a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+#link1 a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+#link2 a:link,
+#link2 a:visited {
+  text-decoration: underline;
+  color: red;
+}
+
+#link2 a:hover {
+  text-decoration: line-through;
+  color: blue;
+}
+
+#link3 a:link,
+#link3 a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#link3 a:hover {
+  color: red;
+  text-decoration: overline;
+}

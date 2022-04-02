@@ -1,0 +1,39 @@
+#test1 {
+  background-color: red;
+  width: 300px;
+  height: 100px;
+}
+
+.backgroundTwo {
+  background: url(http://old.code.mu/exercises/css/osnovy-raboty-s-fonom-cherez-css-dlya-novichkov/2/fon1.jpg);
+}
+
+.backgroundThree {
+  background: url(http://old.code.mu/exercises/css/osnovy-raboty-s-fonom-cherez-css-dlya-novichkov/4/fon1.jpg)
+    repeat-y right top;
+}
+
+.backgroundFour {
+  background: black
+    url(http://old.code.mu/exercises/css/osnovy-raboty-s-fonom-cherez-css-dlya-novichkov/5/space.jpg)
+    no-repeat left top;
+}
+
+.title {
+  width: 500px;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  width: 500px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.textFormat {
+  width: 500px;
+  text-align: justify;
+  font-weight: bold;
+}
